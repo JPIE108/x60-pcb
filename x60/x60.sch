@@ -2624,4 +2624,12 @@ Wire Wire Line
 Connection ~ 7325 1300
 Wire Wire Line
 	7325 1300 7325 1800
+Text GLabel 6075 7675 2    50   Input ~ 0
+ROW4
+Text GLabel 6075 7775 2    50   Input ~ 0
+ROW3
+Text GLabel 6075 7875 2    50   Input ~ 0
+ROW2
+Text GLabel 6075 7975 2    50   Input ~ 0
+ROW1
 $EndSCHEMATC

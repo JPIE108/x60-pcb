@@ -384,587 +384,1362 @@ Text GLabel 650  2350 0    50   Input ~ 0
 D+
 Text GLabel 650  2450 0    50   Input ~ 0
 D-
+Text GLabel 4500 3200 0    50   Input ~ 0
+ROW5
+Wire Wire Line
+	10250 3200 9750 3200
+Connection ~ 10250 3200
+Wire Wire Line
+	9750 3200 8250 3200
+Connection ~ 9750 3200
+Wire Wire Line
+	8250 3200 6750 3200
+Connection ~ 8250 3200
+Wire Wire Line
+	6750 3200 5750 3200
+Connection ~ 6750 3200
+Wire Wire Line
+	5750 3200 4750 3200
+Connection ~ 5750 3200
+Wire Wire Line
+	4750 3200 4500 3200
+Connection ~ 4750 3200
+Wire Wire Line
+	10725 3200 10250 3200
+Wire Wire Line
+	5050 3000 4750 3000
+Wire Wire Line
+	6050 3000 5750 3000
+Wire Wire Line
+	7050 3000 6750 3000
+Wire Wire Line
+	8550 3000 8250 3000
+Wire Wire Line
+	10050 3000 9750 3000
+Wire Wire Line
+	10550 3000 10250 3000
+Wire Wire Line
+	11050 3000 10750 3000
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 617F9C4A
-P 5100 850
-F 0 "MX?" H 5133 1073 60  0000 C CNN
-F 1 "ESC" H 5133 999 20  0000 C CNN
-F 2 "" H 4475 825 60  0001 C CNN
-F 3 "" H 4475 825 60  0001 C CNN
-	1    5100 850 
-	1    0    0    -1  
+L Device:D_Small D?
+U 1 1 61FCAB1B
+P 10750 3100
+F 0 "D?" H 10850 3250 50  0001 R CNN
+F 1 "D_Small" H 11050 3175 50  0001 R CNN
+F 2 "" V 10750 3100 50  0001 C CNN
+F 3 "~" V 10750 3100 50  0001 C CNN
+	1    10750 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 617FC400
-P 5600 850
-F 0 "MX?" H 5633 1073 60  0000 C CNN
-F 1 "1" H 5633 999 20  0000 C CNN
-F 2 "" H 4975 825 60  0001 C CNN
-F 3 "" H 4975 825 60  0001 C CNN
-	1    5600 850 
-	1    0    0    -1  
+L Device:D_Small D?
+U 1 1 61FC8C13
+P 10250 3100
+F 0 "D?" H 10350 3250 50  0001 R CNN
+F 1 "D_Small" H 10550 3175 50  0001 R CNN
+F 2 "" V 10250 3100 50  0001 C CNN
+F 3 "~" V 10250 3100 50  0001 C CNN
+	1    10250 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 617FE2E8
-P 6100 850
-F 0 "MX?" H 6133 1073 60  0000 C CNN
-F 1 "2" H 6133 999 20  0000 C CNN
-F 2 "" H 5475 825 60  0001 C CNN
-F 3 "" H 5475 825 60  0001 C CNN
-	1    6100 850 
-	1    0    0    -1  
+L Device:D_Small D?
+U 1 1 61FC7CFE
+P 9750 3100
+F 0 "D?" H 9850 3250 50  0001 R CNN
+F 1 "D_Small" H 10050 3175 50  0001 R CNN
+F 2 "" V 9750 3100 50  0001 C CNN
+F 3 "~" V 9750 3100 50  0001 C CNN
+	1    9750 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 617FE2EE
-P 6600 850
-F 0 "MX?" H 6633 1073 60  0000 C CNN
-F 1 "3" H 6633 999 20  0000 C CNN
-F 2 "" H 5975 825 60  0001 C CNN
-F 3 "" H 5975 825 60  0001 C CNN
-	1    6600 850 
-	1    0    0    -1  
+L Device:D_Small D?
+U 1 1 61FC7318
+P 8250 3100
+F 0 "D?" H 8350 3250 50  0001 R CNN
+F 1 "D_Small" H 8550 3175 50  0001 R CNN
+F 2 "" V 8250 3100 50  0001 C CNN
+F 3 "~" V 8250 3100 50  0001 C CNN
+	1    8250 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61803512
-P 7050 850
-F 0 "MX?" H 7083 1073 60  0000 C CNN
-F 1 "4" H 7083 999 20  0000 C CNN
-F 2 "" H 6425 825 60  0001 C CNN
-F 3 "" H 6425 825 60  0001 C CNN
-	1    7050 850 
-	1    0    0    -1  
+L Device:D_Small D?
+U 1 1 61FC52CE
+P 6750 3100
+F 0 "D?" H 6850 3250 50  0001 R CNN
+F 1 "D_Small" H 7050 3175 50  0001 R CNN
+F 2 "" V 6750 3100 50  0001 C CNN
+F 3 "~" V 6750 3100 50  0001 C CNN
+	1    6750 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61803518
-P 7550 850
-F 0 "MX?" H 7583 1073 60  0000 C CNN
-F 1 "5" H 7583 999 20  0000 C CNN
-F 2 "" H 6925 825 60  0001 C CNN
-F 3 "" H 6925 825 60  0001 C CNN
-	1    7550 850 
-	1    0    0    -1  
+L Device:D_Small D?
+U 1 1 61FC492B
+P 5750 3100
+F 0 "D?" H 5850 3250 50  0001 R CNN
+F 1 "D_Small" H 6050 3175 50  0001 R CNN
+F 2 "" V 5750 3100 50  0001 C CNN
+F 3 "~" V 5750 3100 50  0001 C CNN
+	1    5750 3100
+	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6180351E
-P 8050 850
-F 0 "MX?" H 8083 1073 60  0000 C CNN
-F 1 "6" H 8083 999 20  0000 C CNN
-F 2 "" H 7425 825 60  0001 C CNN
-F 3 "" H 7425 825 60  0001 C CNN
-	1    8050 850 
-	1    0    0    -1  
+L Device:D_Small D?
+U 1 1 61FC3325
+P 4750 3100
+F 0 "D?" H 4850 3250 50  0001 R CNN
+F 1 "D_Small" H 5050 3175 50  0001 R CNN
+F 2 "" V 4750 3100 50  0001 C CNN
+F 3 "~" V 4750 3100 50  0001 C CNN
+	1    4750 3100
+	0    -1   -1   0   
 $EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61803524
-P 8550 850
-F 0 "MX?" H 8583 1073 60  0000 C CNN
-F 1 "7" H 8583 999 20  0000 C CNN
-F 2 "" H 7925 825 60  0001 C CNN
-F 3 "" H 7925 825 60  0001 C CNN
-	1    8550 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6181551E
-P 9100 850
-F 0 "MX?" H 9133 1073 60  0000 C CNN
-F 1 "8" H 9133 999 20  0000 C CNN
-F 2 "" H 8475 825 60  0001 C CNN
-F 3 "" H 8475 825 60  0001 C CNN
-	1    9100 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61815524
-P 9600 850
-F 0 "MX?" H 9633 1073 60  0000 C CNN
-F 1 "9" H 9633 999 20  0000 C CNN
-F 2 "" H 8975 825 60  0001 C CNN
-F 3 "" H 8975 825 60  0001 C CNN
-	1    9600 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6181552A
-P 10100 850
-F 0 "MX?" H 10133 1073 60  0000 C CNN
-F 1 "0" H 10133 999 20  0000 C CNN
-F 2 "" H 9475 825 60  0001 C CNN
-F 3 "" H 9475 825 60  0001 C CNN
-	1    10100 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61815530
-P 10600 850
-F 0 "MX?" H 10633 1073 60  0000 C CNN
-F 1 "-" H 10633 999 20  0000 C CNN
-F 2 "" H 9975 825 60  0001 C CNN
-F 3 "" H 9975 825 60  0001 C CNN
-	1    10600 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61815536
-P 11050 850
-F 0 "MX?" H 11083 1073 60  0000 C CNN
-F 1 "=" H 11083 999 20  0000 C CNN
-F 2 "" H 10425 825 60  0001 C CNN
-F 3 "" H 10425 825 60  0001 C CNN
-	1    11050 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6181553C
-P 11550 850
-F 0 "MX?" H 11583 1073 60  0000 C CNN
-F 1 "BK" H 11583 999 20  0000 C CNN
-F 2 "" H 10925 825 60  0001 C CNN
-F 3 "" H 10925 825 60  0001 C CNN
-	1    11550 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854AD8
-P 5075 1350
-F 0 "MX?" H 5108 1573 60  0000 C CNN
-F 1 "TAB" H 5108 1499 20  0000 C CNN
-F 2 "" H 4450 1325 60  0001 C CNN
-F 3 "" H 4450 1325 60  0001 C CNN
-	1    5075 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854ADE
-P 5575 1350
-F 0 "MX?" H 5608 1573 60  0000 C CNN
-F 1 "Q" H 5608 1499 20  0000 C CNN
-F 2 "" H 4950 1325 60  0001 C CNN
-F 3 "" H 4950 1325 60  0001 C CNN
-	1    5575 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854AE4
-P 6075 1350
-F 0 "MX?" H 6108 1573 60  0000 C CNN
-F 1 "W" H 6108 1499 20  0000 C CNN
-F 2 "" H 5450 1325 60  0001 C CNN
-F 3 "" H 5450 1325 60  0001 C CNN
-	1    6075 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854AEA
-P 6575 1350
-F 0 "MX?" H 6608 1573 60  0000 C CNN
-F 1 "E" H 6608 1499 20  0000 C CNN
-F 2 "" H 5950 1325 60  0001 C CNN
-F 3 "" H 5950 1325 60  0001 C CNN
-	1    6575 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854AF0
-P 7025 1350
-F 0 "MX?" H 7058 1573 60  0000 C CNN
-F 1 "R" H 7058 1499 20  0000 C CNN
-F 2 "" H 6400 1325 60  0001 C CNN
-F 3 "" H 6400 1325 60  0001 C CNN
-	1    7025 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854AF6
-P 7525 1350
-F 0 "MX?" H 7558 1573 60  0000 C CNN
-F 1 "T" H 7558 1499 20  0000 C CNN
-F 2 "" H 6900 1325 60  0001 C CNN
-F 3 "" H 6900 1325 60  0001 C CNN
-	1    7525 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854AFC
-P 8025 1350
-F 0 "MX?" H 8058 1573 60  0000 C CNN
-F 1 "Y" H 8058 1499 20  0000 C CNN
-F 2 "" H 7400 1325 60  0001 C CNN
-F 3 "" H 7400 1325 60  0001 C CNN
-	1    8025 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854B02
-P 8525 1350
-F 0 "MX?" H 8558 1573 60  0000 C CNN
-F 1 "U" H 8558 1499 20  0000 C CNN
-F 2 "" H 7900 1325 60  0001 C CNN
-F 3 "" H 7900 1325 60  0001 C CNN
-	1    8525 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854B08
-P 9075 1350
-F 0 "MX?" H 9108 1573 60  0000 C CNN
-F 1 "I" H 9108 1499 20  0000 C CNN
-F 2 "" H 8450 1325 60  0001 C CNN
-F 3 "" H 8450 1325 60  0001 C CNN
-	1    9075 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854B0E
-P 9575 1350
-F 0 "MX?" H 9608 1573 60  0000 C CNN
-F 1 "O" H 9608 1499 20  0000 C CNN
-F 2 "" H 8950 1325 60  0001 C CNN
-F 3 "" H 8950 1325 60  0001 C CNN
-	1    9575 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854B14
-P 10075 1350
-F 0 "MX?" H 10108 1573 60  0000 C CNN
-F 1 "P" H 10108 1499 20  0000 C CNN
-F 2 "" H 9450 1325 60  0001 C CNN
-F 3 "" H 9450 1325 60  0001 C CNN
-	1    10075 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854B1A
-P 10575 1350
-F 0 "MX?" H 10608 1573 60  0000 C CNN
-F 1 "[" H 10608 1499 20  0000 C CNN
-F 2 "" H 9950 1325 60  0001 C CNN
-F 3 "" H 9950 1325 60  0001 C CNN
-	1    10575 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854B20
-P 11025 1350
-F 0 "MX?" H 11058 1573 60  0000 C CNN
-F 1 "]" H 11058 1499 20  0000 C CNN
-F 2 "" H 10400 1325 60  0001 C CNN
-F 3 "" H 10400 1325 60  0001 C CNN
-	1    11025 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61854B26
-P 11525 1350
-F 0 "MX?" H 11558 1573 60  0000 C CNN
-F 1 "\\" H 11558 1499 20  0000 C CNN
-F 2 "" H 10900 1325 60  0001 C CNN
-F 3 "" H 10900 1325 60  0001 C CNN
-	1    11525 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621AE
-P 5100 1850
-F 0 "MX?" H 5133 2073 60  0000 C CNN
-F 1 "CAPS" H 5133 1999 20  0000 C CNN
-F 2 "" H 4475 1825 60  0001 C CNN
-F 3 "" H 4475 1825 60  0001 C CNN
-	1    5100 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621B4
-P 5600 1850
-F 0 "MX?" H 5633 2073 60  0000 C CNN
-F 1 "A" H 5633 1999 20  0000 C CNN
-F 2 "" H 4975 1825 60  0001 C CNN
-F 3 "" H 4975 1825 60  0001 C CNN
-	1    5600 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621BA
-P 6100 1850
-F 0 "MX?" H 6133 2073 60  0000 C CNN
-F 1 "S" H 6133 1999 20  0000 C CNN
-F 2 "" H 5475 1825 60  0001 C CNN
-F 3 "" H 5475 1825 60  0001 C CNN
-	1    6100 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621C0
-P 6600 1850
-F 0 "MX?" H 6633 2073 60  0000 C CNN
-F 1 "D" H 6633 1999 20  0000 C CNN
-F 2 "" H 5975 1825 60  0001 C CNN
-F 3 "" H 5975 1825 60  0001 C CNN
-	1    6600 1850
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	11825 800  11825 725 
+Connection ~ 11825 800 
+Wire Wire Line
+	11750 800  11825 800 
+Text GLabel 11825 725  1    50   Input ~ 0
+COL14
+Wire Wire Line
+	11825 1300 11825 800 
+Wire Wire Line
+	11750 1300 11825 1300
+Wire Wire Line
+	11250 1500 11550 1500
+Wire Wire Line
+	11250 1000 11550 1000
+Connection ~ 11325 1800
+Wire Wire Line
+	11325 2800 11325 1800
+Wire Wire Line
+	11250 2800 11325 2800
+Wire Wire Line
+	11325 1300 11325 800 
+Connection ~ 11325 1300
+Wire Wire Line
+	11250 1300 11325 1300
+Wire Wire Line
+	11325 1800 11325 1300
+Wire Wire Line
+	11325 800  11325 725 
+Connection ~ 11325 800 
+Wire Wire Line
+	11250 800  11325 800 
+Text GLabel 11325 725  1    50   Input ~ 0
+COL13
+Wire Wire Line
+	11250 1800 11325 1800
+Wire Wire Line
+	10750 1000 11050 1000
+Wire Wire Line
+	10750 1500 11050 1500
+Wire Wire Line
+	10750 2000 11050 2000
+Wire Wire Line
+	10825 800  10825 725 
+Connection ~ 10825 800 
+Wire Wire Line
+	10750 800  10825 800 
+Wire Wire Line
+	10825 1300 10825 800 
+Connection ~ 10825 1300
+Wire Wire Line
+	10725 1300 10825 1300
+Wire Wire Line
+	10825 1800 10825 1300
+Connection ~ 10825 1800
+Wire Wire Line
+	10750 1800 10825 1800
+Wire Wire Line
+	10825 2300 10825 1800
+Connection ~ 10825 2300
+Wire Wire Line
+	10750 2300 10825 2300
+Text GLabel 10825 725  1    50   Input ~ 0
+COL12
+Wire Wire Line
+	10825 2800 10825 2300
+Wire Wire Line
+	10750 2800 10825 2800
+Wire Wire Line
+	10325 2300 10325 2800
+Connection ~ 10325 2300
+Wire Wire Line
+	10250 2300 10325 2300
+Wire Wire Line
+	10325 1800 10325 2300
+Connection ~ 10325 1800
+Wire Wire Line
+	10250 1800 10325 1800
+Wire Wire Line
+	10325 1300 10325 1800
+Connection ~ 10325 1300
+Wire Wire Line
+	10325 800  10325 1300
+Wire Wire Line
+	10225 1300 10325 1300
+Wire Wire Line
+	10325 800  10325 725 
+Connection ~ 10325 800 
+Wire Wire Line
+	10250 800  10325 800 
+Text GLabel 10325 725  1    50   Input ~ 0
+COL11
+Wire Wire Line
+	10250 2800 10325 2800
+Wire Wire Line
+	9825 1800 9825 1300
+Connection ~ 9825 1800
+Wire Wire Line
+	9750 1800 9825 1800
+Wire Wire Line
+	9825 1300 9825 800 
+Connection ~ 9825 1300
+Wire Wire Line
+	9725 1300 9825 1300
+Wire Wire Line
+	9825 800  9825 725 
+Connection ~ 9825 800 
+Wire Wire Line
+	9750 800  9825 800 
+Text GLabel 9825 725  1    50   Input ~ 0
+COL10
+Wire Wire Line
+	9825 2300 9825 1800
+Wire Wire Line
+	9750 2300 9825 2300
+Wire Wire Line
+	9325 800  9325 1300
+Connection ~ 9325 800 
+Wire Wire Line
+	9250 800  9325 800 
+Wire Wire Line
+	9325 1300 9325 1800
+Connection ~ 9325 1300
+Wire Wire Line
+	9250 1300 9325 1300
+Wire Wire Line
+	9325 1800 9325 2300
+Connection ~ 9325 1800
+Wire Wire Line
+	9250 1800 9325 1800
+Wire Wire Line
+	9325 725  9325 800 
+Text GLabel 9325 725  1    50   Input ~ 0
+COL9
+Wire Wire Line
+	9250 2300 9325 2300
+Wire Wire Line
+	8825 2300 8825 1800
+Connection ~ 8825 2300
+Wire Wire Line
+	8750 2300 8825 2300
+Wire Wire Line
+	8825 1800 8825 1300
+Connection ~ 8825 1800
+Wire Wire Line
+	8750 1800 8825 1800
+Wire Wire Line
+	8825 1300 8825 800 
+Connection ~ 8825 1300
+Wire Wire Line
+	8750 1300 8825 1300
+Wire Wire Line
+	8825 800  8825 725 
+Connection ~ 8825 800 
+Wire Wire Line
+	8750 800  8825 800 
+Text GLabel 8825 725  1    50   Input ~ 0
+COL8
+Wire Wire Line
+	8825 2800 8825 2300
+Wire Wire Line
+	8750 2800 8825 2800
+Wire Wire Line
+	8325 1800 8325 1300
+Connection ~ 8325 1800
+Wire Wire Line
+	8250 1800 8325 1800
+Wire Wire Line
+	8325 1300 8325 800 
+Connection ~ 8325 1300
+Wire Wire Line
+	8250 1300 8325 1300
+Wire Wire Line
+	8325 800  8325 725 
+Connection ~ 8325 800 
+Wire Wire Line
+	8250 800  8325 800 
+Text GLabel 8325 725  1    50   Input ~ 0
+COL7
+Wire Wire Line
+	8325 2300 8325 1800
+Wire Wire Line
+	8250 2300 8325 2300
+Wire Wire Line
+	7750 2500 8050 2500
+Wire Wire Line
+	7825 1800 7825 1300
+Connection ~ 7825 1800
+Wire Wire Line
+	7750 1800 7825 1800
+Wire Wire Line
+	7825 1300 7825 800 
+Connection ~ 7825 1300
+Wire Wire Line
+	7750 1300 7825 1300
+Wire Wire Line
+	7825 800  7825 725 
+Connection ~ 7825 800 
+Wire Wire Line
+	7775 800  7825 800 
+Text GLabel 7825 725  1    50   Input ~ 0
+COL6
+Wire Wire Line
+	7825 2300 7825 1800
+Wire Wire Line
+	7750 2300 7825 2300
+Text GLabel 7325 725  1    50   Input ~ 0
+COL5
+Wire Wire Line
+	7200 2300 7325 2300
+Wire Wire Line
+	7300 2300 7325 2300
+Wire Wire Line
+	7325 2300 7325 1800
+Connection ~ 7325 2300
+Wire Wire Line
+	7200 1800 7325 1800
+Wire Wire Line
+	7325 1800 7325 1300
+Connection ~ 7325 1800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
 U 1 1 618621C6
-P 7050 1850
-F 0 "MX?" H 7083 2073 60  0000 C CNN
-F 1 "F" H 7083 1999 20  0000 C CNN
-F 2 "" H 6425 1825 60  0001 C CNN
-F 3 "" H 6425 1825 60  0001 C CNN
-	1    7050 1850
+P 7100 1850
+F 0 "MX?" H 7133 2073 60  0000 C CNN
+F 1 "F" H 7133 1999 20  0000 C CNN
+F 2 "" H 6475 1825 60  0001 C CNN
+F 3 "" H 6475 1825 60  0001 C CNN
+	1    7100 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 1300 7325 1300
+Wire Wire Line
+	7325 1300 7325 800 
+Connection ~ 7325 1300
+Wire Wire Line
+	7200 800  7325 800 
+Wire Wire Line
+	7325 800  7325 725 
+Connection ~ 7325 800 
+Wire Wire Line
+	7200 2800 7325 2800
+Wire Wire Line
+	7325 2800 7325 2300
+Wire Wire Line
+	8250 2000 8550 2000
+Wire Wire Line
+	7750 2000 8050 2000
+Wire Wire Line
+	7250 2000 7550 2000
+Wire Wire Line
+	8250 2500 8550 2500
+Wire Wire Line
+	7250 2500 7550 2500
+Connection ~ 6825 800 
+Wire Wire Line
+	6825 800  6825 725 
+Wire Wire Line
+	6825 1800 6825 1300
+Connection ~ 6825 1800
+Wire Wire Line
+	6825 1300 6825 800 
+Connection ~ 6825 1300
+Wire Wire Line
+	6825 2300 6825 1800
+Wire Wire Line
+	6750 1500 7050 1500
+Wire Wire Line
+	6750 1000 7050 1000
+Wire Wire Line
+	6750 2000 7050 2000
+Wire Wire Line
+	6750 2500 7050 2500
+Wire Wire Line
+	7250 1500 7550 1500
+Wire Wire Line
+	7750 1500 8050 1500
+Wire Wire Line
+	8750 1500 9050 1500
+Wire Wire Line
+	8250 1500 8550 1500
+Wire Wire Line
+	8250 1000 8550 1000
+Wire Wire Line
+	7750 1000 8050 1000
+Wire Wire Line
+	7250 1000 7575 1000
+Wire Wire Line
+	6750 1800 6825 1800
+Wire Wire Line
+	6725 1300 6825 1300
+Wire Wire Line
+	6750 800  6825 800 
+Text GLabel 6825 725  1    50   Input ~ 0
+COL4
+Wire Wire Line
+	6750 2300 6825 2300
+Text GLabel 4500 2700 0    50   Input ~ 0
+ROW4
+Wire Wire Line
+	9750 2700 9250 2700
+Connection ~ 9750 2700
+Wire Wire Line
+	9250 2700 8750 2700
+Connection ~ 9250 2700
+Wire Wire Line
+	8750 2700 8250 2700
+Connection ~ 8750 2700
+Wire Wire Line
+	8250 2700 7750 2700
+Connection ~ 8250 2700
+Wire Wire Line
+	7750 2700 7250 2700
+Connection ~ 7750 2700
+Wire Wire Line
+	7250 2700 6750 2700
+Connection ~ 7250 2700
+Wire Wire Line
+	6750 2700 6250 2700
+Connection ~ 6750 2700
+Wire Wire Line
+	6250 2700 5750 2700
+Connection ~ 6250 2700
+Wire Wire Line
+	5750 2700 5250 2700
+Connection ~ 5750 2700
+Wire Wire Line
+	5250 2700 4750 2700
+Connection ~ 5250 2700
+Wire Wire Line
+	4750 2700 4500 2700
+Connection ~ 4750 2700
+Wire Wire Line
+	10250 2700 9750 2700
+Wire Wire Line
+	5050 2500 4750 2500
+Wire Wire Line
+	5550 2500 5250 2500
+Wire Wire Line
+	6050 2500 5750 2500
+Wire Wire Line
+	6550 2500 6250 2500
+Wire Wire Line
+	9050 2500 8750 2500
+Wire Wire Line
+	9550 2500 9250 2500
+Wire Wire Line
+	10050 2500 9750 2500
+$Comp
+L Device:D_Small D?
+U 1 1 619E5FC1
+P 9750 2600
+F 0 "D?" H 9850 2750 50  0001 R CNN
+F 1 "D_Small" H 10050 2675 50  0001 R CNN
+F 2 "" V 9750 2600 50  0001 C CNN
+F 3 "~" V 9750 2600 50  0001 C CNN
+	1    9750 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 2500 10250 2500
+$Comp
+L Device:D_Small D?
+U 1 1 619D1663
+P 10250 2600
+F 0 "D?" H 10350 2750 50  0001 R CNN
+F 1 "D_Small" H 10550 2675 50  0001 R CNN
+F 2 "" V 10250 2600 50  0001 C CNN
+F 3 "~" V 10250 2600 50  0001 C CNN
+	1    10250 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619D11F5
+P 9250 2600
+F 0 "D?" H 9350 2750 50  0001 R CNN
+F 1 "D_Small" H 9550 2675 50  0001 R CNN
+F 2 "" V 9250 2600 50  0001 C CNN
+F 3 "~" V 9250 2600 50  0001 C CNN
+	1    9250 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619D0AC4
+P 8750 2600
+F 0 "D?" H 8850 2750 50  0001 R CNN
+F 1 "D_Small" H 9050 2675 50  0001 R CNN
+F 2 "" V 8750 2600 50  0001 C CNN
+F 3 "~" V 8750 2600 50  0001 C CNN
+	1    8750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619D06A3
+P 8250 2600
+F 0 "D?" H 8350 2750 50  0001 R CNN
+F 1 "D_Small" H 8550 2675 50  0001 R CNN
+F 2 "" V 8250 2600 50  0001 C CNN
+F 3 "~" V 8250 2600 50  0001 C CNN
+	1    8250 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619D00DA
+P 7750 2600
+F 0 "D?" H 7850 2750 50  0001 R CNN
+F 1 "D_Small" H 8050 2675 50  0001 R CNN
+F 2 "" V 7750 2600 50  0001 C CNN
+F 3 "~" V 7750 2600 50  0001 C CNN
+	1    7750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619CFB00
+P 7250 2600
+F 0 "D?" H 7350 2750 50  0001 R CNN
+F 1 "D_Small" H 7550 2675 50  0001 R CNN
+F 2 "" V 7250 2600 50  0001 C CNN
+F 3 "~" V 7250 2600 50  0001 C CNN
+	1    7250 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619CF74C
+P 6750 2600
+F 0 "D?" H 6850 2750 50  0001 R CNN
+F 1 "D_Small" H 7050 2675 50  0001 R CNN
+F 2 "" V 6750 2600 50  0001 C CNN
+F 3 "~" V 6750 2600 50  0001 C CNN
+	1    6750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619CF073
+P 6250 2600
+F 0 "D?" H 6350 2750 50  0001 R CNN
+F 1 "D_Small" H 6550 2675 50  0001 R CNN
+F 2 "" V 6250 2600 50  0001 C CNN
+F 3 "~" V 6250 2600 50  0001 C CNN
+	1    6250 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619CEB0A
+P 5750 2600
+F 0 "D?" H 5850 2750 50  0001 R CNN
+F 1 "D_Small" H 6050 2675 50  0001 R CNN
+F 2 "" V 5750 2600 50  0001 C CNN
+F 3 "~" V 5750 2600 50  0001 C CNN
+	1    5750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619CE3DB
+P 5250 2600
+F 0 "D?" H 5350 2750 50  0001 R CNN
+F 1 "D_Small" H 5550 2675 50  0001 R CNN
+F 2 "" V 5250 2600 50  0001 C CNN
+F 3 "~" V 5250 2600 50  0001 C CNN
+	1    5250 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619CDD9C
+P 4750 2600
+F 0 "D?" H 4850 2750 50  0001 R CNN
+F 1 "D_Small" H 5050 2675 50  0001 R CNN
+F 2 "" V 4750 2600 50  0001 C CNN
+F 3 "~" V 4750 2600 50  0001 C CNN
+	1    4750 2600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6300 2300
+Wire Wire Line
+	6300 2800 6300 2300
+Wire Wire Line
+	6250 2800 6300 2800
+Wire Wire Line
+	6300 1800 6300 1300
+Connection ~ 6300 1800
+Wire Wire Line
+	6250 1800 6300 1800
+Wire Wire Line
+	6300 1300 6300 800 
+Connection ~ 6300 1300
+Wire Wire Line
+	6225 1300 6300 1300
+Wire Wire Line
+	6300 800  6300 725 
+Connection ~ 6300 800 
+Wire Wire Line
+	6250 800  6300 800 
+Text GLabel 6300 725  1    50   Input ~ 0
+COL3
+Wire Wire Line
+	6300 2300 6300 1800
+Wire Wire Line
+	6250 2300 6300 2300
+Text GLabel 4500 2200 0    50   Input ~ 0
+ROW3
+Wire Wire Line
+	10250 2200 9750 2200
+Connection ~ 10250 2200
+Wire Wire Line
+	9750 2200 9250 2200
+Connection ~ 9750 2200
+Wire Wire Line
+	9250 2200 8750 2200
+Connection ~ 9250 2200
+Wire Wire Line
+	8750 2200 8250 2200
+Connection ~ 8750 2200
+Wire Wire Line
+	8250 2200 7750 2200
+Connection ~ 8250 2200
+Wire Wire Line
+	7750 2200 7250 2200
+Connection ~ 7750 2200
+Wire Wire Line
+	7250 2200 6750 2200
+Connection ~ 7250 2200
+Wire Wire Line
+	6750 2200 6250 2200
+Connection ~ 6750 2200
+Wire Wire Line
+	6250 2200 5750 2200
+Connection ~ 6250 2200
+Wire Wire Line
+	5750 2200 5250 2200
+Connection ~ 5750 2200
+Wire Wire Line
+	5250 2200 4750 2200
+Connection ~ 5250 2200
+Wire Wire Line
+	4750 2200 4500 2200
+Connection ~ 4750 2200
+Wire Wire Line
+	10750 2200 10250 2200
+Wire Wire Line
+	6550 2000 6250 2000
+Wire Wire Line
+	9050 2000 8750 2000
+Wire Wire Line
+	9550 2000 9250 2000
+Wire Wire Line
+	10050 2000 9750 2000
+Wire Wire Line
+	10550 2000 10250 2000
+Wire Wire Line
+	6050 2000 5750 2000
+Wire Wire Line
+	5550 2000 5250 2000
+Wire Wire Line
+	5050 2000 4750 2000
+$Comp
+L Device:D_Small D?
+U 1 1 6192C2D0
+P 10750 2100
+F 0 "D?" H 10850 2250 50  0001 R CNN
+F 1 "D_Small" H 11050 2175 50  0001 R CNN
+F 2 "" V 10750 2100 50  0001 C CNN
+F 3 "~" V 10750 2100 50  0001 C CNN
+	1    10750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6192BD52
+P 10250 2100
+F 0 "D?" H 10350 2250 50  0001 R CNN
+F 1 "D_Small" H 10550 2175 50  0001 R CNN
+F 2 "" V 10250 2100 50  0001 C CNN
+F 3 "~" V 10250 2100 50  0001 C CNN
+	1    10250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6192B703
+P 9750 2100
+F 0 "D?" H 9850 2250 50  0001 R CNN
+F 1 "D_Small" H 10050 2175 50  0001 R CNN
+F 2 "" V 9750 2100 50  0001 C CNN
+F 3 "~" V 9750 2100 50  0001 C CNN
+	1    9750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6192B1C5
+P 9250 2100
+F 0 "D?" H 9350 2250 50  0001 R CNN
+F 1 "D_Small" H 9550 2175 50  0001 R CNN
+F 2 "" V 9250 2100 50  0001 C CNN
+F 3 "~" V 9250 2100 50  0001 C CNN
+	1    9250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6192AB88
+P 8750 2100
+F 0 "D?" H 8850 2250 50  0001 R CNN
+F 1 "D_Small" H 9050 2175 50  0001 R CNN
+F 2 "" V 8750 2100 50  0001 C CNN
+F 3 "~" V 8750 2100 50  0001 C CNN
+	1    8750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6192A6AD
+P 8250 2100
+F 0 "D?" H 8350 2250 50  0001 R CNN
+F 1 "D_Small" H 8550 2175 50  0001 R CNN
+F 2 "" V 8250 2100 50  0001 C CNN
+F 3 "~" V 8250 2100 50  0001 C CNN
+	1    8250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6192A147
+P 7750 2100
+F 0 "D?" H 7850 2250 50  0001 R CNN
+F 1 "D_Small" H 8050 2175 50  0001 R CNN
+F 2 "" V 7750 2100 50  0001 C CNN
+F 3 "~" V 7750 2100 50  0001 C CNN
+	1    7750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61929D3D
+P 7250 2100
+F 0 "D?" H 7350 2250 50  0001 R CNN
+F 1 "D_Small" H 7550 2175 50  0001 R CNN
+F 2 "" V 7250 2100 50  0001 C CNN
+F 3 "~" V 7250 2100 50  0001 C CNN
+	1    7250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61929731
+P 6750 2100
+F 0 "D?" H 6850 2250 50  0001 R CNN
+F 1 "D_Small" H 7050 2175 50  0001 R CNN
+F 2 "" V 6750 2100 50  0001 C CNN
+F 3 "~" V 6750 2100 50  0001 C CNN
+	1    6750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6192917B
+P 6250 2100
+F 0 "D?" H 6350 2250 50  0001 R CNN
+F 1 "D_Small" H 6550 2175 50  0001 R CNN
+F 2 "" V 6250 2100 50  0001 C CNN
+F 3 "~" V 6250 2100 50  0001 C CNN
+	1    6250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61928925
+P 5750 2100
+F 0 "D?" H 5850 2250 50  0001 R CNN
+F 1 "D_Small" H 6050 2175 50  0001 R CNN
+F 2 "" V 5750 2100 50  0001 C CNN
+F 3 "~" V 5750 2100 50  0001 C CNN
+	1    5750 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61928020
+P 5250 2100
+F 0 "D?" H 5350 2250 50  0001 R CNN
+F 1 "D_Small" H 5550 2175 50  0001 R CNN
+F 2 "" V 5250 2100 50  0001 C CNN
+F 3 "~" V 5250 2100 50  0001 C CNN
+	1    5250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 619277B9
+P 4750 2100
+F 0 "D?" H 4850 2250 50  0001 R CNN
+F 1 "D_Small" H 5050 2175 50  0001 R CNN
+F 2 "" V 4750 2100 50  0001 C CNN
+F 3 "~" V 4750 2100 50  0001 C CNN
+	1    4750 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 2300 5800 1800
+Wire Wire Line
+	5750 2300 5800 2300
+Wire Wire Line
+	5800 1800 5800 1300
+Connection ~ 5800 1800
+Wire Wire Line
+	5750 1800 5800 1800
+Wire Wire Line
+	5800 1300 5800 800 
+Connection ~ 5800 1300
+Wire Wire Line
+	5725 1300 5800 1300
+Wire Wire Line
+	5800 800  5800 725 
+Connection ~ 5800 800 
+Wire Wire Line
+	5750 800  5800 800 
+Text GLabel 5800 725  1    50   Input ~ 0
+COL2
+Text GLabel 4500 1700 0    50   Input ~ 0
+ROW2
+Wire Wire Line
+	10750 1700 10250 1700
+Connection ~ 10750 1700
+Wire Wire Line
+	10250 1700 9750 1700
+Connection ~ 10250 1700
+Wire Wire Line
+	9750 1700 9250 1700
+Connection ~ 9750 1700
+Wire Wire Line
+	9250 1700 8750 1700
+Connection ~ 9250 1700
+Wire Wire Line
+	8750 1700 8250 1700
+Connection ~ 8750 1700
+Wire Wire Line
+	8250 1700 7750 1700
+Connection ~ 8250 1700
+Wire Wire Line
+	7750 1700 7250 1700
+Connection ~ 7750 1700
+Wire Wire Line
+	7250 1700 6750 1700
+Connection ~ 7250 1700
+Wire Wire Line
+	6750 1700 6250 1700
+Connection ~ 6750 1700
+Wire Wire Line
+	6250 1700 5750 1700
+Connection ~ 6250 1700
+Wire Wire Line
+	5750 1700 5250 1700
+Connection ~ 5750 1700
+Wire Wire Line
+	5250 1700 4750 1700
+Connection ~ 5250 1700
+Wire Wire Line
+	4750 1700 4500 1700
+Connection ~ 4750 1700
+Wire Wire Line
+	11250 1700 10750 1700
+Wire Wire Line
+	10525 1500 10250 1500
+Wire Wire Line
+	10025 1500 9750 1500
+Wire Wire Line
+	9525 1500 9250 1500
+Wire Wire Line
+	6525 1500 6250 1500
+Wire Wire Line
+	6025 1500 5750 1500
+Wire Wire Line
+	5525 1500 5250 1500
+Wire Wire Line
+	5025 1500 4750 1500
+$Comp
+L Device:D_Small D?
+U 1 1 618D8E60
+P 11250 1600
+F 0 "D?" H 11350 1750 50  0001 R CNN
+F 1 "D_Small" H 11550 1675 50  0001 R CNN
+F 2 "" V 11250 1600 50  0001 C CNN
+F 3 "~" V 11250 1600 50  0001 C CNN
+	1    11250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D8969
+P 10750 1600
+F 0 "D?" H 10850 1750 50  0001 R CNN
+F 1 "D_Small" H 11050 1675 50  0001 R CNN
+F 2 "" V 10750 1600 50  0001 C CNN
+F 3 "~" V 10750 1600 50  0001 C CNN
+	1    10750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D7DCB
+P 10250 1600
+F 0 "D?" H 10350 1750 50  0001 R CNN
+F 1 "D_Small" H 10550 1675 50  0001 R CNN
+F 2 "" V 10250 1600 50  0001 C CNN
+F 3 "~" V 10250 1600 50  0001 C CNN
+	1    10250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D7793
+P 9750 1600
+F 0 "D?" H 9850 1750 50  0001 R CNN
+F 1 "D_Small" H 10050 1675 50  0001 R CNN
+F 2 "" V 9750 1600 50  0001 C CNN
+F 3 "~" V 9750 1600 50  0001 C CNN
+	1    9750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D7279
+P 9250 1600
+F 0 "D?" H 9350 1750 50  0001 R CNN
+F 1 "D_Small" H 9550 1675 50  0001 R CNN
+F 2 "" V 9250 1600 50  0001 C CNN
+F 3 "~" V 9250 1600 50  0001 C CNN
+	1    9250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D6DE8
+P 8750 1600
+F 0 "D?" H 8850 1750 50  0001 R CNN
+F 1 "D_Small" H 9050 1675 50  0001 R CNN
+F 2 "" V 8750 1600 50  0001 C CNN
+F 3 "~" V 8750 1600 50  0001 C CNN
+	1    8750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D6865
+P 8250 1600
+F 0 "D?" H 8350 1750 50  0001 R CNN
+F 1 "D_Small" H 8550 1675 50  0001 R CNN
+F 2 "" V 8250 1600 50  0001 C CNN
+F 3 "~" V 8250 1600 50  0001 C CNN
+	1    8250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D620E
+P 7750 1600
+F 0 "D?" H 7850 1750 50  0001 R CNN
+F 1 "D_Small" H 8050 1675 50  0001 R CNN
+F 2 "" V 7750 1600 50  0001 C CNN
+F 3 "~" V 7750 1600 50  0001 C CNN
+	1    7750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D5B8D
+P 7250 1600
+F 0 "D?" H 7350 1750 50  0001 R CNN
+F 1 "D_Small" H 7550 1675 50  0001 R CNN
+F 2 "" V 7250 1600 50  0001 C CNN
+F 3 "~" V 7250 1600 50  0001 C CNN
+	1    7250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D5658
+P 6750 1600
+F 0 "D?" H 6850 1750 50  0001 R CNN
+F 1 "D_Small" H 7050 1675 50  0001 R CNN
+F 2 "" V 6750 1600 50  0001 C CNN
+F 3 "~" V 6750 1600 50  0001 C CNN
+	1    6750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D5059
+P 6250 1600
+F 0 "D?" H 6350 1750 50  0001 R CNN
+F 1 "D_Small" H 6550 1675 50  0001 R CNN
+F 2 "" V 6250 1600 50  0001 C CNN
+F 3 "~" V 6250 1600 50  0001 C CNN
+	1    6250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D4A48
+P 5750 1600
+F 0 "D?" H 5850 1750 50  0001 R CNN
+F 1 "D_Small" H 6050 1675 50  0001 R CNN
+F 2 "" V 5750 1600 50  0001 C CNN
+F 3 "~" V 5750 1600 50  0001 C CNN
+	1    5750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D3A28
+P 5250 1600
+F 0 "D?" H 5350 1750 50  0001 R CNN
+F 1 "D_Small" H 5550 1675 50  0001 R CNN
+F 2 "" V 5250 1600 50  0001 C CNN
+F 3 "~" V 5250 1600 50  0001 C CNN
+	1    5250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 618D3243
+P 4750 1600
+F 0 "D?" H 4850 1750 50  0001 R CNN
+F 1 "D_Small" H 5050 1675 50  0001 R CNN
+F 2 "" V 4750 1600 50  0001 C CNN
+F 3 "~" V 4750 1600 50  0001 C CNN
+	1    4750 1600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5300 725  1    50   Input ~ 0
+COL1
+Wire Wire Line
+	5300 2300 5300 1800
+Connection ~ 5300 2300
+Wire Wire Line
+	5250 2300 5300 2300
+Wire Wire Line
+	5300 1800 5300 1300
+Connection ~ 5300 1800
+Wire Wire Line
+	5250 1800 5300 1800
+Wire Wire Line
+	5300 1300 5300 800 
+Connection ~ 5300 1300
+Wire Wire Line
+	5225 1300 5300 1300
+Connection ~ 5300 800 
+Wire Wire Line
+	5300 800  5300 725 
+Wire Wire Line
+	5300 800  5250 800 
+Wire Wire Line
+	5300 2800 5300 2300
+Wire Wire Line
+	5250 2800 5300 2800
+Wire Wire Line
+	4500 1200 4750 1200
+Text GLabel 4500 1200 0    50   Input ~ 0
+ROW1
+Wire Wire Line
+	10750 1200 10250 1200
+Connection ~ 10750 1200
+Wire Wire Line
+	10250 1200 9750 1200
+Connection ~ 10250 1200
+Wire Wire Line
+	9750 1200 9250 1200
+Connection ~ 9750 1200
+Wire Wire Line
+	9250 1200 8750 1200
+Connection ~ 9250 1200
+Wire Wire Line
+	8750 1200 8250 1200
+Connection ~ 8750 1200
+Wire Wire Line
+	8250 1200 7750 1200
+Connection ~ 8250 1200
+Wire Wire Line
+	7750 1200 7250 1200
+Connection ~ 7750 1200
+Wire Wire Line
+	7250 1200 6750 1200
+Connection ~ 7250 1200
+Wire Wire Line
+	6750 1200 6250 1200
+Connection ~ 6750 1200
+Wire Wire Line
+	6250 1200 5750 1200
+Connection ~ 6250 1200
+Wire Wire Line
+	5750 1200 5250 1200
+Connection ~ 5750 1200
+Wire Wire Line
+	5250 1200 4750 1200
+Connection ~ 5250 1200
+Connection ~ 4750 1200
+Wire Wire Line
+	11250 1200 10750 1200
+Wire Wire Line
+	5050 1000 4750 1000
+Wire Wire Line
+	5550 1000 5250 1000
+Wire Wire Line
+	6050 1000 5750 1000
+Wire Wire Line
+	6550 1000 6250 1000
+Wire Wire Line
+	9050 1000 8750 1000
+Wire Wire Line
+	9550 1000 9250 1000
+Wire Wire Line
+	10050 1000 9750 1000
+Wire Wire Line
+	10550 1000 10250 1000
+$Comp
+L Device:D_Small D?
+U 1 1 6188F49D
+P 11250 1100
+F 0 "D?" H 11350 1250 50  0001 R CNN
+F 1 "D_Small" H 11550 1175 50  0001 R CNN
+F 2 "" V 11250 1100 50  0001 C CNN
+F 3 "~" V 11250 1100 50  0001 C CNN
+	1    11250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188F070
+P 10750 1100
+F 0 "D?" H 10850 1250 50  0001 R CNN
+F 1 "D_Small" H 11050 1175 50  0001 R CNN
+F 2 "" V 10750 1100 50  0001 C CNN
+F 3 "~" V 10750 1100 50  0001 C CNN
+	1    10750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188EBC9
+P 10250 1100
+F 0 "D?" H 10350 1250 50  0001 R CNN
+F 1 "D_Small" H 10550 1175 50  0001 R CNN
+F 2 "" V 10250 1100 50  0001 C CNN
+F 3 "~" V 10250 1100 50  0001 C CNN
+	1    10250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188E34C
+P 9750 1100
+F 0 "D?" H 9850 1250 50  0001 R CNN
+F 1 "D_Small" H 10050 1175 50  0001 R CNN
+F 2 "" V 9750 1100 50  0001 C CNN
+F 3 "~" V 9750 1100 50  0001 C CNN
+	1    9750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188DD78
+P 9250 1100
+F 0 "D?" H 9350 1250 50  0001 R CNN
+F 1 "D_Small" H 9550 1175 50  0001 R CNN
+F 2 "" V 9250 1100 50  0001 C CNN
+F 3 "~" V 9250 1100 50  0001 C CNN
+	1    9250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188D917
+P 8750 1100
+F 0 "D?" H 8850 1250 50  0001 R CNN
+F 1 "D_Small" H 9050 1175 50  0001 R CNN
+F 2 "" V 8750 1100 50  0001 C CNN
+F 3 "~" V 8750 1100 50  0001 C CNN
+	1    8750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188D35C
+P 8250 1100
+F 0 "D?" H 8350 1250 50  0001 R CNN
+F 1 "D_Small" H 8550 1175 50  0001 R CNN
+F 2 "" V 8250 1100 50  0001 C CNN
+F 3 "~" V 8250 1100 50  0001 C CNN
+	1    8250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188CF3F
+P 7750 1100
+F 0 "D?" H 7850 1250 50  0001 R CNN
+F 1 "D_Small" H 8050 1175 50  0001 R CNN
+F 2 "" V 7750 1100 50  0001 C CNN
+F 3 "~" V 7750 1100 50  0001 C CNN
+	1    7750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188C138
+P 4750 1100
+F 0 "D?" H 4850 1250 50  0001 R CNN
+F 1 "D_Small" H 5050 1175 50  0001 R CNN
+F 2 "" V 4750 1100 50  0001 C CNN
+F 3 "~" V 4750 1100 50  0001 C CNN
+	1    4750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188B192
+P 7250 1100
+F 0 "D?" H 7350 1250 50  0001 R CNN
+F 1 "D_Small" H 7550 1175 50  0001 R CNN
+F 2 "" V 7250 1100 50  0001 C CNN
+F 3 "~" V 7250 1100 50  0001 C CNN
+	1    7250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188AC75
+P 6750 1100
+F 0 "D?" H 6850 1250 50  0001 R CNN
+F 1 "D_Small" H 7050 1175 50  0001 R CNN
+F 2 "" V 6750 1100 50  0001 C CNN
+F 3 "~" V 6750 1100 50  0001 C CNN
+	1    6750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188A774
+P 6250 1100
+F 0 "D?" H 6350 1250 50  0001 R CNN
+F 1 "D_Small" H 6550 1175 50  0001 R CNN
+F 2 "" V 6250 1100 50  0001 C CNN
+F 3 "~" V 6250 1100 50  0001 C CNN
+	1    6250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6188A21F
+P 5750 1100
+F 0 "D?" H 5850 1250 50  0001 R CNN
+F 1 "D_Small" H 6050 1175 50  0001 R CNN
+F 2 "" V 5750 1100 50  0001 C CNN
+F 3 "~" V 5750 1100 50  0001 C CNN
+	1    5750 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61888D9C
+P 5250 1100
+F 0 "D?" H 5350 1250 50  0001 R CNN
+F 1 "D_Small" H 5550 1175 50  0001 R CNN
+F 2 "" V 5250 1100 50  0001 C CNN
+F 3 "~" V 5250 1100 50  0001 C CNN
+	1    5250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6188008D
+P 11100 2850
+F 0 "MX?" H 11133 3073 60  0000 C CNN
+F 1 "CTRL" H 11133 2999 20  0000 C CNN
+F 2 "" H 10475 2825 60  0001 C CNN
+F 3 "" H 10475 2825 60  0001 C CNN
+	1    11100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621CC
-P 7550 1850
-F 0 "MX?" H 7583 2073 60  0000 C CNN
-F 1 "G" H 7583 1999 20  0000 C CNN
-F 2 "" H 6925 1825 60  0001 C CNN
-F 3 "" H 6925 1825 60  0001 C CNN
-	1    7550 1850
+U 1 1 61880087
+P 10600 2850
+F 0 "MX?" H 10633 3073 60  0000 C CNN
+F 1 "WIN" H 10633 2999 20  0000 C CNN
+F 2 "" H 9975 2825 60  0001 C CNN
+F 3 "" H 9975 2825 60  0001 C CNN
+	1    10600 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621D2
-P 8050 1850
-F 0 "MX?" H 8083 2073 60  0000 C CNN
-F 1 "H" H 8083 1999 20  0000 C CNN
-F 2 "" H 7425 1825 60  0001 C CNN
-F 3 "" H 7425 1825 60  0001 C CNN
-	1    8050 1850
+U 1 1 61880081
+P 10100 2850
+F 0 "MX?" H 10133 3073 60  0000 C CNN
+F 1 "ALT" H 10133 2999 20  0000 C CNN
+F 2 "" H 9475 2825 60  0001 C CNN
+F 3 "" H 9475 2825 60  0001 C CNN
+	1    10100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621D8
-P 8550 1850
-F 0 "MX?" H 8583 2073 60  0000 C CNN
-F 1 "J" H 8583 1999 20  0000 C CNN
-F 2 "" H 7925 1825 60  0001 C CNN
-F 3 "" H 7925 1825 60  0001 C CNN
-	1    8550 1850
+U 1 1 6188005D
+P 8600 2850
+F 0 "MX?" H 8633 3073 60  0000 C CNN
+F 1 "SPACE" H 8633 2999 20  0000 C CNN
+F 2 "" H 7975 2825 60  0001 C CNN
+F 3 "" H 7975 2825 60  0001 C CNN
+	1    8600 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621DE
-P 9100 1850
-F 0 "MX?" H 9133 2073 60  0000 C CNN
-F 1 "K" H 9133 1999 20  0000 C CNN
-F 2 "" H 8475 1825 60  0001 C CNN
-F 3 "" H 8475 1825 60  0001 C CNN
-	1    9100 1850
+U 1 1 6188004B
+P 7100 2850
+F 0 "MX?" H 7133 3073 60  0000 C CNN
+F 1 "ALT" H 7133 2999 20  0000 C CNN
+F 2 "" H 6475 2825 60  0001 C CNN
+F 3 "" H 6475 2825 60  0001 C CNN
+	1    7100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621E4
-P 9600 1850
-F 0 "MX?" H 9633 2073 60  0000 C CNN
-F 1 "L" H 9633 1999 20  0000 C CNN
-F 2 "" H 8975 1825 60  0001 C CNN
-F 3 "" H 8975 1825 60  0001 C CNN
-	1    9600 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621EA
-P 10100 1850
-F 0 "MX?" H 10133 2073 60  0000 C CNN
-F 1 ";" H 10133 1999 20  0000 C CNN
-F 2 "" H 9475 1825 60  0001 C CNN
-F 3 "" H 9475 1825 60  0001 C CNN
-	1    10100 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621F0
-P 10600 1850
-F 0 "MX?" H 10633 2073 60  0000 C CNN
-F 1 "'" H 10633 1999 20  0000 C CNN
-F 2 "" H 9975 1825 60  0001 C CNN
-F 3 "" H 9975 1825 60  0001 C CNN
-	1    10600 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 618621F6
-P 11325 1850
-F 0 "MX?" H 11358 2073 60  0000 C CNN
-F 1 "ENTER" H 11358 1999 20  0000 C CNN
-F 2 "" H 10700 1825 60  0001 C CNN
-F 3 "" H 10700 1825 60  0001 C CNN
-	1    11325 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870B8A
-P 5100 2350
-F 0 "MX?" H 5133 2573 60  0000 C CNN
-F 1 "LSHIFT" H 5133 2499 20  0000 C CNN
-F 2 "" H 4475 2325 60  0001 C CNN
-F 3 "" H 4475 2325 60  0001 C CNN
-	1    5100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870B90
-P 5600 2350
-F 0 "MX?" H 5633 2573 60  0000 C CNN
-F 1 "Z" H 5633 2499 20  0000 C CNN
-F 2 "" H 4975 2325 60  0001 C CNN
-F 3 "" H 4975 2325 60  0001 C CNN
-	1    5600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870B96
-P 6100 2350
-F 0 "MX?" H 6133 2573 60  0000 C CNN
-F 1 "X" H 6133 2499 20  0000 C CNN
-F 2 "" H 5475 2325 60  0001 C CNN
-F 3 "" H 5475 2325 60  0001 C CNN
-	1    6100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870B9C
-P 6600 2350
-F 0 "MX?" H 6633 2573 60  0000 C CNN
-F 1 "C" H 6633 2499 20  0000 C CNN
-F 2 "" H 5975 2325 60  0001 C CNN
-F 3 "" H 5975 2325 60  0001 C CNN
-	1    6600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870BA2
-P 7050 2350
-F 0 "MX?" H 7083 2573 60  0000 C CNN
-F 1 "V" H 7083 2499 20  0000 C CNN
-F 2 "" H 6425 2325 60  0001 C CNN
-F 3 "" H 6425 2325 60  0001 C CNN
-	1    7050 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870BA8
-P 7550 2350
-F 0 "MX?" H 7583 2573 60  0000 C CNN
-F 1 "B" H 7583 2499 20  0000 C CNN
-F 2 "" H 6925 2325 60  0001 C CNN
-F 3 "" H 6925 2325 60  0001 C CNN
-	1    7550 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870BAE
-P 8050 2350
-F 0 "MX?" H 8083 2573 60  0000 C CNN
-F 1 "N" H 8083 2499 20  0000 C CNN
-F 2 "" H 7425 2325 60  0001 C CNN
-F 3 "" H 7425 2325 60  0001 C CNN
-	1    8050 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870BB4
-P 8550 2350
-F 0 "MX?" H 8583 2573 60  0000 C CNN
-F 1 "M" H 8583 2499 20  0000 C CNN
-F 2 "" H 7925 2325 60  0001 C CNN
-F 3 "" H 7925 2325 60  0001 C CNN
-	1    8550 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870BBA
-P 9100 2350
-F 0 "MX?" H 9133 2573 60  0000 C CNN
-F 1 "," H 9133 2499 20  0000 C CNN
-F 2 "" H 8475 2325 60  0001 C CNN
-F 3 "" H 8475 2325 60  0001 C CNN
-	1    9100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870BC0
-P 9600 2350
-F 0 "MX?" H 9633 2573 60  0000 C CNN
-F 1 "." H 9633 2499 20  0000 C CNN
-F 2 "" H 8975 2325 60  0001 C CNN
-F 3 "" H 8975 2325 60  0001 C CNN
-	1    9600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870BC6
-P 10100 2350
-F 0 "MX?" H 10133 2573 60  0000 C CNN
-F 1 "/" H 10133 2499 20  0000 C CNN
-F 2 "" H 9475 2325 60  0001 C CNN
-F 3 "" H 9475 2325 60  0001 C CNN
-	1    10100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61870BCC
-P 11025 2350
-F 0 "MX?" H 11058 2573 60  0000 C CNN
-F 1 "RSHIFT" H 11058 2499 20  0000 C CNN
-F 2 "" H 10400 2325 60  0001 C CNN
-F 3 "" H 10400 2325 60  0001 C CNN
-	1    11025 2350
+U 1 1 61880045
+P 6100 2850
+F 0 "MX?" H 6133 3073 60  0000 C CNN
+F 1 "WIN" H 6133 2999 20  0000 C CNN
+F 2 "" H 5475 2825 60  0001 C CNN
+F 3 "" H 5475 2825 60  0001 C CNN
+	1    6100 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -980,79 +1755,574 @@ F 3 "" H 4475 2825 60  0001 C CNN
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61880045
-P 5600 2850
-F 0 "MX?" H 5633 3073 60  0000 C CNN
-F 1 "WIN" H 5633 2999 20  0000 C CNN
-F 2 "" H 4975 2825 60  0001 C CNN
-F 3 "" H 4975 2825 60  0001 C CNN
-	1    5600 2850
+U 1 1 61870BCC
+P 10600 2350
+F 0 "MX?" H 10633 2573 60  0000 C CNN
+F 1 "RSHIFT" H 10633 2499 20  0000 C CNN
+F 2 "" H 9975 2325 60  0001 C CNN
+F 3 "" H 9975 2325 60  0001 C CNN
+	1    10600 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6188004B
-P 6100 2850
-F 0 "MX?" H 6133 3073 60  0000 C CNN
-F 1 "ALT" H 6133 2999 20  0000 C CNN
-F 2 "" H 5475 2825 60  0001 C CNN
-F 3 "" H 5475 2825 60  0001 C CNN
-	1    6100 2850
+U 1 1 61870BC6
+P 10100 2350
+F 0 "MX?" H 10133 2573 60  0000 C CNN
+F 1 "/" H 10133 2499 20  0000 C CNN
+F 2 "" H 9475 2325 60  0001 C CNN
+F 3 "" H 9475 2325 60  0001 C CNN
+	1    10100 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6188005D
-P 8075 2800
-F 0 "MX?" H 8108 3023 60  0000 C CNN
-F 1 "5" H 8108 2949 20  0000 C CNN
-F 2 "" H 7450 2775 60  0001 C CNN
-F 3 "" H 7450 2775 60  0001 C CNN
-	1    8075 2800
+U 1 1 61870BC0
+P 9600 2350
+F 0 "MX?" H 9633 2573 60  0000 C CNN
+F 1 "." H 9633 2499 20  0000 C CNN
+F 2 "" H 8975 2325 60  0001 C CNN
+F 3 "" H 8975 2325 60  0001 C CNN
+	1    9600 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6188007B
-P 10100 2850
-F 0 "MX?" H 10133 3073 60  0000 C CNN
-F 1 "0" H 10133 2999 20  0000 C CNN
-F 2 "" H 9475 2825 60  0001 C CNN
-F 3 "" H 9475 2825 60  0001 C CNN
-	1    10100 2850
+U 1 1 61870BBA
+P 9100 2350
+F 0 "MX?" H 9133 2573 60  0000 C CNN
+F 1 "," H 9133 2499 20  0000 C CNN
+F 2 "" H 8475 2325 60  0001 C CNN
+F 3 "" H 8475 2325 60  0001 C CNN
+	1    9100 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61880081
-P 10600 2850
-F 0 "MX?" H 10633 3073 60  0000 C CNN
-F 1 "ALT" H 10633 2999 20  0000 C CNN
-F 2 "" H 9975 2825 60  0001 C CNN
-F 3 "" H 9975 2825 60  0001 C CNN
-	1    10600 2850
+U 1 1 61870BB4
+P 8600 2350
+F 0 "MX?" H 8633 2573 60  0000 C CNN
+F 1 "M" H 8633 2499 20  0000 C CNN
+F 2 "" H 7975 2325 60  0001 C CNN
+F 3 "" H 7975 2325 60  0001 C CNN
+	1    8600 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 61880087
-P 11050 2850
-F 0 "MX?" H 11083 3073 60  0000 C CNN
-F 1 "WIN" H 11083 2999 20  0000 C CNN
-F 2 "" H 10425 2825 60  0001 C CNN
-F 3 "" H 10425 2825 60  0001 C CNN
-	1    11050 2850
+U 1 1 61870BAE
+P 8100 2350
+F 0 "MX?" H 8133 2573 60  0000 C CNN
+F 1 "N" H 8133 2499 20  0000 C CNN
+F 2 "" H 7475 2325 60  0001 C CNN
+F 3 "" H 7475 2325 60  0001 C CNN
+	1    8100 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 6188008D
-P 11550 2850
-F 0 "MX?" H 11583 3073 60  0000 C CNN
-F 1 "CTRL" H 11583 2999 20  0000 C CNN
-F 2 "" H 10925 2825 60  0001 C CNN
-F 3 "" H 10925 2825 60  0001 C CNN
-	1    11550 2850
+U 1 1 61870BA8
+P 7600 2350
+F 0 "MX?" H 7633 2573 60  0000 C CNN
+F 1 "B" H 7633 2499 20  0000 C CNN
+F 2 "" H 6975 2325 60  0001 C CNN
+F 3 "" H 6975 2325 60  0001 C CNN
+	1    7600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61870BA2
+P 7100 2350
+F 0 "MX?" H 7133 2573 60  0000 C CNN
+F 1 "V" H 7133 2499 20  0000 C CNN
+F 2 "" H 6475 2325 60  0001 C CNN
+F 3 "" H 6475 2325 60  0001 C CNN
+	1    7100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61870B9C
+P 6600 2350
+F 0 "MX?" H 6633 2573 60  0000 C CNN
+F 1 "C" H 6633 2499 20  0000 C CNN
+F 2 "" H 5975 2325 60  0001 C CNN
+F 3 "" H 5975 2325 60  0001 C CNN
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61870B96
+P 6100 2350
+F 0 "MX?" H 6133 2573 60  0000 C CNN
+F 1 "X" H 6133 2499 20  0000 C CNN
+F 2 "" H 5475 2325 60  0001 C CNN
+F 3 "" H 5475 2325 60  0001 C CNN
+	1    6100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61870B90
+P 5600 2350
+F 0 "MX?" H 5633 2573 60  0000 C CNN
+F 1 "Z" H 5633 2499 20  0000 C CNN
+F 2 "" H 4975 2325 60  0001 C CNN
+F 3 "" H 4975 2325 60  0001 C CNN
+	1    5600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61870B8A
+P 5100 2350
+F 0 "MX?" H 5133 2573 60  0000 C CNN
+F 1 "LSHIFT" H 5133 2499 20  0000 C CNN
+F 2 "" H 4475 2325 60  0001 C CNN
+F 3 "" H 4475 2325 60  0001 C CNN
+	1    5100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621F6
+P 11100 1850
+F 0 "MX?" H 11133 2073 60  0000 C CNN
+F 1 "ENTER" H 11133 1999 20  0000 C CNN
+F 2 "" H 10475 1825 60  0001 C CNN
+F 3 "" H 10475 1825 60  0001 C CNN
+	1    11100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621F0
+P 10600 1850
+F 0 "MX?" H 10633 2073 60  0000 C CNN
+F 1 "'" H 10633 1999 20  0000 C CNN
+F 2 "" H 9975 1825 60  0001 C CNN
+F 3 "" H 9975 1825 60  0001 C CNN
+	1    10600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621EA
+P 10100 1850
+F 0 "MX?" H 10133 2073 60  0000 C CNN
+F 1 ";" H 10133 1999 20  0000 C CNN
+F 2 "" H 9475 1825 60  0001 C CNN
+F 3 "" H 9475 1825 60  0001 C CNN
+	1    10100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621E4
+P 9600 1850
+F 0 "MX?" H 9633 2073 60  0000 C CNN
+F 1 "L" H 9633 1999 20  0000 C CNN
+F 2 "" H 8975 1825 60  0001 C CNN
+F 3 "" H 8975 1825 60  0001 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621DE
+P 9100 1850
+F 0 "MX?" H 9133 2073 60  0000 C CNN
+F 1 "K" H 9133 1999 20  0000 C CNN
+F 2 "" H 8475 1825 60  0001 C CNN
+F 3 "" H 8475 1825 60  0001 C CNN
+	1    9100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621D8
+P 8600 1850
+F 0 "MX?" H 8633 2073 60  0000 C CNN
+F 1 "J" H 8633 1999 20  0000 C CNN
+F 2 "" H 7975 1825 60  0001 C CNN
+F 3 "" H 7975 1825 60  0001 C CNN
+	1    8600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621D2
+P 8100 1850
+F 0 "MX?" H 8133 2073 60  0000 C CNN
+F 1 "H" H 8133 1999 20  0000 C CNN
+F 2 "" H 7475 1825 60  0001 C CNN
+F 3 "" H 7475 1825 60  0001 C CNN
+	1    8100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621CC
+P 7600 1850
+F 0 "MX?" H 7633 2073 60  0000 C CNN
+F 1 "G" H 7633 1999 20  0000 C CNN
+F 2 "" H 6975 1825 60  0001 C CNN
+F 3 "" H 6975 1825 60  0001 C CNN
+	1    7600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621C0
+P 6600 1850
+F 0 "MX?" H 6633 2073 60  0000 C CNN
+F 1 "D" H 6633 1999 20  0000 C CNN
+F 2 "" H 5975 1825 60  0001 C CNN
+F 3 "" H 5975 1825 60  0001 C CNN
+	1    6600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621BA
+P 6100 1850
+F 0 "MX?" H 6133 2073 60  0000 C CNN
+F 1 "S" H 6133 1999 20  0000 C CNN
+F 2 "" H 5475 1825 60  0001 C CNN
+F 3 "" H 5475 1825 60  0001 C CNN
+	1    6100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621B4
+P 5600 1850
+F 0 "MX?" H 5633 2073 60  0000 C CNN
+F 1 "A" H 5633 1999 20  0000 C CNN
+F 2 "" H 4975 1825 60  0001 C CNN
+F 3 "" H 4975 1825 60  0001 C CNN
+	1    5600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 618621AE
+P 5100 1850
+F 0 "MX?" H 5133 2073 60  0000 C CNN
+F 1 "CAPS" H 5133 1999 20  0000 C CNN
+F 2 "" H 4475 1825 60  0001 C CNN
+F 3 "" H 4475 1825 60  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854B26
+P 11600 1350
+F 0 "MX?" H 11633 1573 60  0000 C CNN
+F 1 "\\" H 11633 1499 20  0000 C CNN
+F 2 "" H 10975 1325 60  0001 C CNN
+F 3 "" H 10975 1325 60  0001 C CNN
+	1    11600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854B20
+P 11100 1350
+F 0 "MX?" H 11133 1573 60  0000 C CNN
+F 1 "]" H 11133 1499 20  0000 C CNN
+F 2 "" H 10475 1325 60  0001 C CNN
+F 3 "" H 10475 1325 60  0001 C CNN
+	1    11100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854B1A
+P 10575 1350
+F 0 "MX?" H 10608 1573 60  0000 C CNN
+F 1 "[" H 10608 1499 20  0000 C CNN
+F 2 "" H 9950 1325 60  0001 C CNN
+F 3 "" H 9950 1325 60  0001 C CNN
+	1    10575 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854B14
+P 10075 1350
+F 0 "MX?" H 10108 1573 60  0000 C CNN
+F 1 "P" H 10108 1499 20  0000 C CNN
+F 2 "" H 9450 1325 60  0001 C CNN
+F 3 "" H 9450 1325 60  0001 C CNN
+	1    10075 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854B0E
+P 9575 1350
+F 0 "MX?" H 9608 1573 60  0000 C CNN
+F 1 "O" H 9608 1499 20  0000 C CNN
+F 2 "" H 8950 1325 60  0001 C CNN
+F 3 "" H 8950 1325 60  0001 C CNN
+	1    9575 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854B08
+P 9100 1350
+F 0 "MX?" H 9133 1573 60  0000 C CNN
+F 1 "I" H 9133 1499 20  0000 C CNN
+F 2 "" H 8475 1325 60  0001 C CNN
+F 3 "" H 8475 1325 60  0001 C CNN
+	1    9100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854B02
+P 8600 1350
+F 0 "MX?" H 8633 1573 60  0000 C CNN
+F 1 "U" H 8633 1499 20  0000 C CNN
+F 2 "" H 7975 1325 60  0001 C CNN
+F 3 "" H 7975 1325 60  0001 C CNN
+	1    8600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854AFC
+P 8100 1350
+F 0 "MX?" H 8133 1573 60  0000 C CNN
+F 1 "Y" H 8133 1499 20  0000 C CNN
+F 2 "" H 7475 1325 60  0001 C CNN
+F 3 "" H 7475 1325 60  0001 C CNN
+	1    8100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854AF6
+P 7600 1350
+F 0 "MX?" H 7633 1573 60  0000 C CNN
+F 1 "T" H 7633 1499 20  0000 C CNN
+F 2 "" H 6975 1325 60  0001 C CNN
+F 3 "" H 6975 1325 60  0001 C CNN
+	1    7600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854AF0
+P 7100 1350
+F 0 "MX?" H 7133 1573 60  0000 C CNN
+F 1 "R" H 7133 1499 20  0000 C CNN
+F 2 "" H 6475 1325 60  0001 C CNN
+F 3 "" H 6475 1325 60  0001 C CNN
+	1    7100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854AEA
+P 6575 1350
+F 0 "MX?" H 6608 1573 60  0000 C CNN
+F 1 "E" H 6608 1499 20  0000 C CNN
+F 2 "" H 5950 1325 60  0001 C CNN
+F 3 "" H 5950 1325 60  0001 C CNN
+	1    6575 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854AE4
+P 6075 1350
+F 0 "MX?" H 6108 1573 60  0000 C CNN
+F 1 "W" H 6108 1499 20  0000 C CNN
+F 2 "" H 5450 1325 60  0001 C CNN
+F 3 "" H 5450 1325 60  0001 C CNN
+	1    6075 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854ADE
+P 5575 1350
+F 0 "MX?" H 5608 1573 60  0000 C CNN
+F 1 "Q" H 5608 1499 20  0000 C CNN
+F 2 "" H 4950 1325 60  0001 C CNN
+F 3 "" H 4950 1325 60  0001 C CNN
+	1    5575 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61854AD8
+P 5075 1350
+F 0 "MX?" H 5108 1573 60  0000 C CNN
+F 1 "TAB" H 5108 1499 20  0000 C CNN
+F 2 "" H 4450 1325 60  0001 C CNN
+F 3 "" H 4450 1325 60  0001 C CNN
+	1    5075 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6181553C
+P 11600 850
+F 0 "MX?" H 11633 1073 60  0000 C CNN
+F 1 "BK" H 11633 999 20  0000 C CNN
+F 2 "" H 10975 825 60  0001 C CNN
+F 3 "" H 10975 825 60  0001 C CNN
+	1    11600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61815536
+P 11100 850
+F 0 "MX?" H 11133 1073 60  0000 C CNN
+F 1 "=" H 11133 999 20  0000 C CNN
+F 2 "" H 10475 825 60  0001 C CNN
+F 3 "" H 10475 825 60  0001 C CNN
+	1    11100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61815530
+P 10600 850
+F 0 "MX?" H 10633 1073 60  0000 C CNN
+F 1 "-" H 10633 999 20  0000 C CNN
+F 2 "" H 9975 825 60  0001 C CNN
+F 3 "" H 9975 825 60  0001 C CNN
+	1    10600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6181552A
+P 10100 850
+F 0 "MX?" H 10133 1073 60  0000 C CNN
+F 1 "0" H 10133 999 20  0000 C CNN
+F 2 "" H 9475 825 60  0001 C CNN
+F 3 "" H 9475 825 60  0001 C CNN
+	1    10100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61815524
+P 9600 850
+F 0 "MX?" H 9633 1073 60  0000 C CNN
+F 1 "9" H 9633 999 20  0000 C CNN
+F 2 "" H 8975 825 60  0001 C CNN
+F 3 "" H 8975 825 60  0001 C CNN
+	1    9600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6181551E
+P 9100 850
+F 0 "MX?" H 9133 1073 60  0000 C CNN
+F 1 "8" H 9133 999 20  0000 C CNN
+F 2 "" H 8475 825 60  0001 C CNN
+F 3 "" H 8475 825 60  0001 C CNN
+	1    9100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61803524
+P 8600 850
+F 0 "MX?" H 8633 1073 60  0000 C CNN
+F 1 "7" H 8633 999 20  0000 C CNN
+F 2 "" H 7975 825 60  0001 C CNN
+F 3 "" H 7975 825 60  0001 C CNN
+	1    8600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 6180351E
+P 8100 850
+F 0 "MX?" H 8133 1073 60  0000 C CNN
+F 1 "6" H 8133 999 20  0000 C CNN
+F 2 "" H 7475 825 60  0001 C CNN
+F 3 "" H 7475 825 60  0001 C CNN
+	1    8100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61803518
+P 7625 850
+F 0 "MX?" H 7658 1073 60  0000 C CNN
+F 1 "5" H 7658 999 20  0000 C CNN
+F 2 "" H 7000 825 60  0001 C CNN
+F 3 "" H 7000 825 60  0001 C CNN
+	1    7625 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 61803512
+P 7100 850
+F 0 "MX?" H 7133 1073 60  0000 C CNN
+F 1 "4" H 7133 999 20  0000 C CNN
+F 2 "" H 6475 825 60  0001 C CNN
+F 3 "" H 6475 825 60  0001 C CNN
+	1    7100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 617FE2EE
+P 6600 850
+F 0 "MX?" H 6633 1073 60  0000 C CNN
+F 1 "3" H 6633 999 20  0000 C CNN
+F 2 "" H 5975 825 60  0001 C CNN
+F 3 "" H 5975 825 60  0001 C CNN
+	1    6600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 617FE2E8
+P 6100 850
+F 0 "MX?" H 6133 1073 60  0000 C CNN
+F 1 "2" H 6133 999 20  0000 C CNN
+F 2 "" H 5475 825 60  0001 C CNN
+F 3 "" H 5475 825 60  0001 C CNN
+	1    6100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 617FC400
+P 5600 850
+F 0 "MX?" H 5633 1073 60  0000 C CNN
+F 1 "1" H 5633 999 20  0000 C CNN
+F 2 "" H 4975 825 60  0001 C CNN
+F 3 "" H 4975 825 60  0001 C CNN
+	1    5600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 617F9C4A
+P 5100 850
+F 0 "MX?" H 5133 1073 60  0000 C CNN
+F 1 "ESC" H 5133 999 20  0000 C CNN
+F 2 "" H 4475 825 60  0001 C CNN
+F 3 "" H 4475 825 60  0001 C CNN
+	1    5100 850 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

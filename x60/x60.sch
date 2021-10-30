@@ -409,8 +409,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 3000 5750 3000
 Wire Wire Line
-	7050 3000 6750 3000
-Wire Wire Line
 	8550 3000 8250 3000
 Wire Wire Line
 	10050 3000 9750 3000
@@ -650,18 +648,6 @@ Wire Wire Line
 	7750 2300 7825 2300
 Text GLabel 7325 725  1    50   Input ~ 0
 COL5
-Wire Wire Line
-	7200 2300 7325 2300
-Wire Wire Line
-	7300 2300 7325 2300
-Wire Wire Line
-	7325 2300 7325 1800
-Connection ~ 7325 2300
-Wire Wire Line
-	7200 1800 7325 1800
-Wire Wire Line
-	7325 1800 7325 1300
-Connection ~ 7325 1800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX21
 U 1 1 618621C6
@@ -673,12 +659,6 @@ F 3 "" H 6475 1825 60  0001 C CNN
 	1    7100 1850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7175 1300 7325 1300
-Wire Wire Line
-	7200 2800 7325 2800
-Wire Wire Line
-	7325 2800 7325 2300
 Wire Wire Line
 	8250 2000 8550 2000
 Wire Wire Line
@@ -1408,17 +1388,6 @@ F 3 "" H 7975 2825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX23
-U 1 1 6188004B
-P 7100 2850
-F 0 "MX23" H 7133 3073 60  0000 C CNN
-F 1 "ALT" H 7133 2999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.5U-NoLED" H 6475 2825 60  0001 C CNN
-F 3 "" H 6475 2825 60  0001 C CNN
-	1    7100 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX14
 U 1 1 61880045
 P 6100 2850
@@ -1804,17 +1773,6 @@ F 3 "" H 6975 1325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX20
-U 1 1 61854AF0
-P 7100 1350
-F 0 "MX20" H 7133 1573 60  0000 C CNN
-F 1 "R" H 7133 1499 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 6475 1325 60  0001 C CNN
-F 3 "" H 6475 1325 60  0001 C CNN
-	1    7100 1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX15
 U 1 1 61854AEA
 P 6575 1350
@@ -2052,11 +2010,6 @@ $EndComp
 Connection ~ 6750 3000
 Wire Wire Line
 	6950 2800 6950 3075
-Wire Wire Line
-	6950 3075 7325 3075
-Wire Wire Line
-	7325 3075 7325 2800
-Connection ~ 7325 2800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX69
 U 1 1 61A0358B
@@ -2185,7 +2138,6 @@ Connection ~ 5300 1300
 Connection ~ 5800 1300
 Connection ~ 6300 1300
 Connection ~ 6825 1300
-Connection ~ 7325 1300
 Connection ~ 7825 1300
 Connection ~ 8325 1300
 Connection ~ 8825 1300
@@ -2623,7 +2575,53 @@ Wire Wire Line
 	7325 725  7325 800 
 Wire Wire Line
 	7325 800  7250 800 
+Wire Wire Line
+	7325 1800 7250 1800
+Wire Wire Line
+	7325 1800 7325 2300
+Connection ~ 7325 2300
+Wire Wire Line
+	6950 3075 7325 3075
+Wire Wire Line
+	7250 2300 7325 2300
+Wire Wire Line
+	7050 3000 6750 3000
+Wire Wire Line
+	7325 2300 7325 2800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX23
+U 1 1 6188004B
+P 7100 2850
+F 0 "MX23" H 7133 3073 60  0000 C CNN
+F 1 "ALT" H 7133 2999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U-NoLED" H 6475 2825 60  0001 C CNN
+F 3 "" H 6475 2825 60  0001 C CNN
+	1    7100 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 2800 7250 2800
+Connection ~ 7325 2800
+Wire Wire Line
+	7325 2800 7325 3075
+Connection ~ 7325 1800
 Connection ~ 7325 800 
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 61854AF0
+P 7100 1350
+F 0 "MX20" H 7133 1573 60  0000 C CNN
+F 1 "R" H 7133 1499 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6475 1325 60  0001 C CNN
+F 3 "" H 6475 1325 60  0001 C CNN
+	1    7100 1350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	7325 800  7325 1300
+Wire Wire Line
+	7325 1300 7250 1300
+Connection ~ 7325 1300
+Wire Wire Line
+	7325 1300 7325 1800
 $EndSCHEMATC

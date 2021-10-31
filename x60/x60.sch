@@ -2673,7 +2673,7 @@ F 3 "" H 1475 7575 50  0001 C CNN
 	1    1475 7575
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 6950 2    50   Input ~ 0
+Text GLabel 1825 6950 2    50   Input ~ 0
 D+
 Text GLabel 1600 6800 2    50   Input ~ 0
 D-
@@ -2794,17 +2794,6 @@ Connection ~ 1525 6800
 Wire Wire Line
 	1525 6800 1525 6725
 Wire Wire Line
-	1350 6825 1475 6825
-Wire Wire Line
-	1475 6825 1475 6950
-Wire Wire Line
-	1475 7025 1350 7025
-Wire Wire Line
-	1475 6950 1600 6950
-Connection ~ 1475 6950
-Wire Wire Line
-	1475 6950 1475 7025
-Wire Wire Line
 	1350 6425 1625 6425
 Wire Wire Line
 	1625 6425 1625 7325
@@ -2818,12 +2807,6 @@ Connection ~ 1625 6425
 Wire Wire Line
 	1350 6325 1475 6325
 Wire Wire Line
-	1475 6325 1475 6825
-Connection ~ 1475 6825
-Connection ~ 1475 7025
-Wire Wire Line
-	1475 7025 1475 7425
-Wire Wire Line
 	1350 7450 1350 7425
 Wire Wire Line
 	1350 7425 1475 7425
@@ -2831,4 +2814,12 @@ Connection ~ 1350 7425
 Wire Wire Line
 	1475 7425 1475 7575
 Connection ~ 1475 7425
+Wire Wire Line
+	1475 6325 1475 7425
+Wire Wire Line
+	1350 6825 1825 6825
+Wire Wire Line
+	1350 7025 1825 7025
+Wire Wire Line
+	1825 6825 1825 7025
 $EndSCHEMATC

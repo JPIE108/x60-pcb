@@ -2748,12 +2748,12 @@ F 3 "" H 3150 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
+L Connector:USB_C_Receptacle_USB2.0 J1
 U 1 1 6183E32C
 P 950 6850
-F 0 "J?" H 1057 7717 50  0000 C CNN
+F 0 "J1" H 1057 7717 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1057 7626 50  0000 C CNN
-F 2 "" H 1100 6850 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1100 6850 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1100 6850 50  0001 C CNN
 	1    950  6850
 	1    0    0    -1  
@@ -2787,10 +2787,10 @@ Connection ~ 1675 7000
 Wire Wire Line
 	1675 7000 1675 7050
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 61A12DB1
 P 950 7750
-F 0 "#PWR?" H 950 7500 50  0001 C CNN
+F 0 "#PWR0101" H 950 7500 50  0001 C CNN
 F 1 "GND" H 955 7577 50  0000 C CNN
 F 2 "" H 950 7750 50  0001 C CNN
 F 3 "" H 950 7750 50  0001 C CNN
